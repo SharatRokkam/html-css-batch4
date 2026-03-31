@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Iosevka+Charon:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Iosevka Charon", monospace;
+}
+
+header {
+  background-color: cadetblue;
+  padding: 30px 30px;
+}
+
+h2 {
+  font-size: 3em;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.welcome-note {
+  text-align: center;
+  color: white;
+}
+
+div {
+  width: 90vw;
+  background-color: aqua;
+  height: 150px;
+  margin: 20px 0 0 40px;
+}
+
+h3 {
+  font-size: 30px;
+  padding: 20px 0 0 15px;
+}
+
+#para {
+  margin-top: 10px;
+  padding: 30px 0 0 15px;
+}
+
+.skills {
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  display: inline-block;
+  display: none;
+}
+
+article {
+  text-align: center;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+}

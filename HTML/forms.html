@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Students Registration Form</h1>
+
+    <fieldset style="background-color: bisque;">
+        <legend>Student Registration Form</legend>
+    
+      <form>
+        <label for="rollno">Roll No:</label>
+        <input type="number" name="rollno" id="rollno" />
+
+        <br />
+        <br />
+        <label for="student_name">Student name :</label>
+        <input type="text" placeholder="First Name" /> -
+        <input type="text" placeholder="Last name" />
+
+        <br /><br />
+        <label for="fathers_name"> Father's name</label>
+        <input type="text" />
+
+        <br /><br />
+        <label for="dob">Date of Birth</label>
+        <input type="number" placeholder="Day" /> -
+        <input type="number" placeholder="Month" /> -
+        <input type="number" placeholder="Year" /> -
+
+        <input type="datetime-local">
+
+        <br />
+        <br />
+        <label for="mobileno">Mobile No.</label>
+
+        <input type="number" value="+91" size="100" />
+        <input type="number" >
+
+        <!-- Important  -->
+        <br /><br />
+        <label for="email">Email id:</label>
+        <input type="email" />
+
+        <br /><br />
+        <label for="password">Password</label>
+        <input type="password" />
+        <br /><br />
+
+        <label for="gender">Gender : </label>
+        Male <input type="radio" name="gender" id="gender" value="male" /> Female
+        <input type="radio" name="gender" id="gender" value="female/>
+
+        <br /><br />
+        <label for="languages">Languages :</label>
+        HTML<input type="checkbox" name="Languages" id="languages" /> JS<input
+          type="checkbox"
+        />
+        Python <input type="checkbox" name="languages" id="languages" />
+
+        <br />
+        <br />
+        <!-- drop down code  -->
+        <label for="course">Courses</label>
+        <select name="" id="">
+          <option value="">---select current course--</option>
+          <option value="CSS">CSS</option>
+          <option value="SQL">SQL</option>
+        </select>
+
+        <br />
+        <br />
+        <label for="student_photo">Student Photo:</label>
+        <input type="file" name="" id="" />
+
+        <br /><br />
+        <label for="Address">Address</label>
+        <textarea cols="10" rows="10"></textarea>
+
+        <br /><br />
+
+        <!-- should be preferred  -->
+        <button>Register</button>
+
+        <input type="reset" value="Reset" />
+      </form>
+   </fieldset>
+  </body>
+</html>
