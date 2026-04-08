@@ -49,8 +49,8 @@
 // console.log(45 != 45);
 
 // Logical Operator  - &&, ||, !
-
-let age = 30;
+//
+// let age = 30;
 
 // && - both side should be true then only it will give you true otherwise it will give you false
 // console.log(age > 18 && age < 25);
@@ -167,13 +167,11 @@ let age = 30;
 
 // slice
 
-let items = [1, 2, 4, 5, 6];
+// let items = [1, 2, 4, 5, 6];
 
-// let page1 = items.slice(0, 4);
-let page1 = items.slice(-2);
-// console.log(page1);
-
-
+// // let page1 = items.slice(0, 4);
+// let page1 = items.slice(-2);
+// // console.log(page1);
 
 // let users = [
 //   { id: 1, name: "A" },
@@ -194,5 +192,73 @@ let page1 = items.slice(-2);
 
 // console.log(randomNum.sort((a, b) => a - b));
 
-
 // Task : Splice, some, every, includes, findIndex, at, charAt - Minimum 5 completed
+
+// *************************************************************************
+// Conditional Statements
+
+// if statement
+
+// let age = 1;
+
+// if (age > 18) {
+//   console.log("you can drive and get license");
+// } else if (age === 18) {
+//   console.log("you can drive but can get learning license");
+// } else {
+//   console.log("you cannot drive, you are a kid");
+// }
+
+// let marks = 95;
+
+// if (marks > 90) {
+//   console.log("grade A");
+// } else if (marks > 80) {
+//   console.log("grade B");
+// } else if (marks > 70) {
+//   console.log("grade C");
+// } else if (marks > 60) {
+//   console.log("grade D");
+// } else {
+//   console.log("sorry you are fail");
+// }
+
+// Switch Statement
+
+// let day = "Sunday";
+
+// switch (day) {
+//   case "Monday":
+//     console.log("start the work");
+//     break;
+//   case "Tuesday":
+//     console.log("you just survived one day");
+//     break;
+//   case "Wednesday":
+//     console.log("there are two more days to office");
+//     break;
+//   case "Thursday":
+//     console.log("Yayy! one more day to weekend");
+//     break;
+//   case "Friday":
+//     console.log("Finally friday has arrived, tomorrow is off");
+//     break;
+//   default:
+//     console.log("please mention week days only");
+// }
+
+// Ternary operator only works in javascript
+
+// let age = 12
+
+// let results = age >= 18 ? "yes! you are an adult" : "No! you are a teenager";
+// console.log(results);
+
+// ***********************************************************************************
+
+// Control flow or loops
+// loops are used to repeat a block of code automatically until the condition is saatisfied
+
+for (let index = 50; index > 1; index--) {
+  console.log(index);
+}
