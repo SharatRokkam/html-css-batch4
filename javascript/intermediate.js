@@ -259,6 +259,83 @@
 // Control flow or loops
 // loops are used to repeat a block of code automatically until the condition is saatisfied
 
-for (let index = 50; index > 1; index--) {
-  console.log(index);
-}
+// for (let index = 50; index > 1; index--) {
+//   console.log(index);
+// }
+
+// let i = 1;
+
+// while(i < 100){
+//     console.log(i);
+//     // increment / decrement is very important in while loop else it will hang your system
+//     i++;
+
+// }
+
+// do while
+
+// let num = 10;
+
+// do {
+//   console.log("Hello from do...while loop");
+// } while (num < 5);
+
+// for of and for in
+
+// for...in loop
+// used to loop over the keys (indexes / property names), it can be used with objects and array
+
+// const student = {
+//   // key :  value
+//   name: "Rahul",
+//   age: 22,
+//   course: "MERN",
+// };
+
+// for (let key in student) {
+//   //   console.log(key);
+//   //   console.log(student[key]);
+
+//   console.log(key + " :" + student[key]);
+// }
+
+// let fruits = ["apple", "banana", "grapes"];
+
+// for (let index in fruits) {
+//   //   console.log(index);
+//   console.log(fruits[index]);
+// }
+
+// Everything in Javascript is actually an object only....
+// for of loop  is used to loop overs "VALUES" directly....Arrays and Strings
+
+// const price = [100, 200, 330, 334, 550];
+
+// for (const p of price) {
+//   console.log("Price is :" + p);
+// }
+
+// let my_name = "Purushottam";
+
+// for (let char of my_name) {
+//   console.log(char);
+// }
+
+// For Each
+
+// const users = ["Chandana", " Aathi", "Asif", "Meghana", "Sai Ramana"];
+
+// users.forEach((user) => {
+//   console.log("Session started please start joining, " + user);
+// });
+
+const orders = [
+  { id: 1, item: "Printed Shirt", price: 699 },
+  { id: 2, item: "Cap", price: 299 },
+  { id: 3, item: "Shoes", price: 799 },
+];
+
+orders.forEach((order) => {
+  //  `` - backticks (string interpolation)
+  console.log(`Order ${order.id} : ${order.item} costs ${order.price}`);
+});
