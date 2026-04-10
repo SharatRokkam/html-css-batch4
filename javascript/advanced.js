@@ -60,3 +60,11 @@
 // (function () {
 //   console.log(4**3);
 // })();
+
+(() => {
+  let secret = "1234";
+  console.log("Inside : ", secret);
+})();
+
+// not accessible outside the function 
+console.log("outside : ", secret);
