@@ -1,0 +1,11 @@
+React events are similar to DOM events but they use camelCase and are passed as functions 
+
+Form - e.preventDefault - avoid auto submit
+
+Uncontrolled and Controlled Components - FORM
+
+A Controlled components is where a react controls the form data using state(useState)....
+
+Full control of the form, Better debugging, Validation
+
+Uncontrolled components are directly controlled by DOM, by taking reference (useRef)
