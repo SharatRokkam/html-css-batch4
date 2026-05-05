@@ -1,8 +1,9 @@
 // common js module 
 // const express = require("express")
 
+// es module 
 import express from 'express';
-const server= express()
+const server = express()
 // HTTP methods - get , post ,put, patch, delete
 
 // routes -instagram.com / localhost://
